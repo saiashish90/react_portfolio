@@ -17863,6 +17863,26 @@ video {
   transition-delay: 1000ms;
 }
 
+.bg-pallete-light {
+  background-color: #190061;
+}
+
+.bg-pallete-dark {
+  background-color: #0c0032;
+}
+
+.bg-pallete-white {
+  background-color: #f0f0f0;
+}
+
+.bg-pallete-highlight {
+  background-color: #3500d3;
+}
+
+.bg-pallete-grey {
+  background-color: #282828;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
