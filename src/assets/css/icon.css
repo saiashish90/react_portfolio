@@ -1,0 +1,33 @@
+.icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: .75rem;
+}
+.python {
+	content: url('../icons/python-language-logotype.svg');
+}
+.bootstrap {
+	content: url('../icons/bxl-bootstrap.svg');
+}
+.css {
+	content: url('../icons/bxl-css3.svg');
+}
+.html {
+	content: url('../icons/bxl-html5.svg');
+}
+.js {
+	content: url('../icons/bxl-javascript.svg');
+}
+.nodejs {
+	content: url('../icons/bxl-nodejs.svg');
+}
+.php {
+	content: url('../icons/php.svg');
+}
+.mongodb {
+	content: url('../icons/storage.svg');
+}
+.mysql {
+	content: url('../icons/mysql.svg');
+}

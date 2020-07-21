@@ -4,18 +4,18 @@ import '../css/styles.css';
 export default function Navbar({ fixed }) {
 	const [ navbarOpen, setNavbarOpen ] = React.useState(false);
 	return (
-		<nav className="sticky top-0 w-full bg-pallete-light items-center justify-between px-2 py-3 navbar-expand-lg  mb-3">
-			<div className="container mx-auto flex flex-wrap items-center justify-between">
-				<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+		<nav className="fixed w-full bg-pallete-dark items-center px-2 py-3 navbar-expand-lg  mb-3">
+			<div className="mx-56 flex flex-wrap items-center justify-between">
+				<div className="w-full relative mx-auto flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 					<a
-						className="text-base font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase text-white"
+						className="text-base font-bold leading-relaxed inline-block py-2 whitespace-no-wrap uppercase text-pallete-highlight"
 						href="#"
 					>
 						Sai Ashish
 					</a>
 					{/* Hamburger icon */}
 					<button
-						className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+						className="text-pallete-highlight cursor-pointer text-xl leading-none  py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 						type="button"
 						onClick={() => setNavbarOpen(!navbarOpen)}
 					>
@@ -25,7 +25,7 @@ export default function Navbar({ fixed }) {
 				{/* Menu items */}
 				<div
 					className={
-						'lg:flex flex-grow items-center' +
+						'lg:flex flex-grow justify-center items-center' +
 						(
 							navbarOpen ? ' flex' :
 							' hidden')
@@ -35,7 +35,7 @@ export default function Navbar({ fixed }) {
 					<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white"
+								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-pallete-highlight"
 								href="#"
 							>
 								Home
@@ -43,7 +43,7 @@ export default function Navbar({ fixed }) {
 						</li>
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white"
+								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-pallete-highlight"
 								href="#"
 							>
 								About
@@ -51,7 +51,7 @@ export default function Navbar({ fixed }) {
 						</li>
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white"
+								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-pallete-highlight"
 								href="#"
 							>
 								Skills
@@ -59,7 +59,7 @@ export default function Navbar({ fixed }) {
 						</li>
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white"
+								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-pallete-highlight"
 								href="#"
 							>
 								Work
@@ -67,7 +67,7 @@ export default function Navbar({ fixed }) {
 						</li>
 						<li className="nav-item">
 							<a
-								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white"
+								className="px-3 py-2 ml-6 flex items-center text-base uppercase font-bold leading-snug text-white hover:text-pallete-highlight"
 								href="#"
 							>
 								Contact

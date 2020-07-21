@@ -5,17 +5,49 @@
 @import "tailwindcss/utilities";
 
 .bg-pallete-light {
-	background-color: #190061;
+	background-color: #45a29e;
 }
 .bg-pallete-dark {
-	background-color: #0c0032;
+	background-color: #0b0c10;
 }
 .bg-pallete-white {
-	background-color: #f0f0f0;
+	background-color: #c5c6c7;
 }
 .bg-pallete-highlight {
-	background-color: #3500d3;
+	background-color: #66fcf1;
 }
 .bg-pallete-grey {
-	background-color: #282828;
+	background-color: #1f2833;
+}
+/* text pallete */
+.text-pallete-light {
+	color: #45a29e;
+}
+.text-pallete-dark {
+	color: #0b0c10;
+}
+.text-pallete-white {
+	color: #c5c6c7;
+}
+.text-pallete-highlight {
+	color: #66fcf1;
+}
+.text-pallete-grey {
+	color: #1f2833;
+}
+/* on hover */
+.hover\:text-pallete-light:hover {
+	color: #45a29e;
+}
+.hover\:text-pallete-dark:hover {
+	color: #0b0c10;
+}
+.hover\:text-pallete-white:hover {
+	color: #c5c6c7;
+}
+.hover\:text-pallete-highlight:hover {
+	color: #66fcf1;
+}
+.hover\:text-pallete-grey:hover {
+	color: #1f2833;
 }
