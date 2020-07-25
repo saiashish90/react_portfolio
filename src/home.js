@@ -15,7 +15,7 @@ function home() {
 				</div>
 			</div>
 
-			<div className="w-1/2">
+			<div className="w-1/2 invisible lg:visible">
 				<img className=" mx-auto w-2/4" src={require('./assets/img/profile.png')} alt="" />
 			</div>
 		</section>
