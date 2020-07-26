@@ -91,7 +91,6 @@ body {
 
 .nav__list-item {
 	position: relative;
-	display: inline-block;
 	padding: .5rem;
 	-webkit-transition-delay: 0.8s;
 	transition-delay: 0.8s;
