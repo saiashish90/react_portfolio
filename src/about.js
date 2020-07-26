@@ -15,7 +15,7 @@ function about() {
 					/>
 				</div>
 
-				<div className="w-full overflow-hidden md:w-1/2 mb-5 text-white flex pr-auto  items-center">
+				<div className="w-full overflow-hidden md:w-1/2 mb-5 text-white flex pr-auto lg:pr-64  items-center">
 					<div>
 						<h1 className="m-auto text-3xl font-bold">I am Ashish</h1>
 						<p>

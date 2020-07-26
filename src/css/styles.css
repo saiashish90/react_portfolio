@@ -17936,6 +17936,12 @@ video {
   border-radius: 1rem;
 }
 
+#custom-scroll {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

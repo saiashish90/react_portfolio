@@ -91,7 +91,7 @@ function home() {
 					</div>
 					<div className="w-full hidden md:block overflow-hidden md:w-1/2">
 						<img
-							className="w-8/12 mx-auto relative z-10"
+							className="w-8/12 mx-auto relative z-0"
 							src={require('./assets/img/profile.png')}
 							alt="img"
 						/>
