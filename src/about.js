@@ -3,11 +3,11 @@ import './css/styles.css';
 function about() {
 	return (
 		<section className="py-3 px-2 w-11/12 mx-auto bg-pallete-grey rounder smoothAfShadow" id="about">
-			<div className="w-100 text-center my-10">
+			<div className="w-100 text-center mt-2 mb-5">
 				<h1 className="text-pallete-highlight text-4xl title">About</h1>
 			</div>
-			<div class="flex flex-wrap overflow-hidden">
-				<div className="w-full overflow-hidden md:w-1/2">
+			<div className="flex flex-wrap overflow-hidden">
+				<div className="w-full overflow-hidden md:w-1/2 mb-5">
 					<img
 						className="w-5/12 mx-auto rounded-lg object-center"
 						src={require('./assets/img/about.jpg')}
@@ -15,7 +15,7 @@ function about() {
 					/>
 				</div>
 
-				<div className="w-full overflow-hidden md:w-1/2 text-white flex pr-64 items-center">
+				<div className="w-full overflow-hidden md:w-1/2 mb-5 text-white flex pr-auto  items-center">
 					<div>
 						<h1 className="m-auto text-3xl font-bold">I am Ashish</h1>
 						<p>

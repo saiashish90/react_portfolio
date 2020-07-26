@@ -24,30 +24,32 @@ export default function Navbar() {
 				if (element.classList.contains(stringClass)) element.classList.remove(stringClass);
 				else element.classList.add(stringClass);
 			};
+			const divs = document.querySelectorAll('.nav__list-item');
 
+			divs.forEach((el) => el.addEventListener('click', () => toggleClass(body, 'nav-active')));
 			init();
 		})();
 	};
 	return (
 		<Fragment>
-			<div class="menu-icon">
-				<span class="menu-icon__line menu-icon__line-left" />
-				<span class="menu-icon__line" />
-				<span class="menu-icon__line menu-icon__line-right" />
+			<div className="menu-icon">
+				<span className="menu-icon__line menu-icon__line-left" />
+				<span className="menu-icon__line" />
+				<span className="menu-icon__line menu-icon__line-right" />
 			</div>
-
-			<div class="nav">
-				<div class="nav__content">
-					<ul class="nav__list">
-						<li class="nav__list-item">
+			<div className="menu-social text-white">asdasd</div>
+			<div className="nav">
+				<div className="nav__content text-center">
+					<ul className="nav__list">
+						<li className="flex justify-center sm:inline-block nav__list-item">
 							<a href="#home">Home</a>
 						</li>
-						<li class="nav__list-item">
+						<li className="flex justify-center sm:inline-block nav__list-item">
 							<a href="#about">About</a>
 						</li>
-						<li class="nav__list-item">Skills</li>
-						<li class="nav__list-item">Work</li>
-						<li class="nav__list-item">Contact</li>
+						<li className="flex justify-center sm:inline-block nav__list-item">Skills</li>
+						<li className="flex justify-center sm:inline-block nav__list-item">Work</li>
+						<li className="flex justify-center sm:inline-block nav__list-item">Contact</li>
 					</ul>
 				</div>
 			</div>
