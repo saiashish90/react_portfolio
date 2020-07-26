@@ -113,9 +113,10 @@ ReactDOM.render(
 						radius : 10
 					},
 					inlineArrangement : 'equidistant',
-					scale             : 0.5,
+					scale             : 0.1,
 					type              : 'inline',
-					url               : 'https://cdn.matteobruni.it/images/particles/smalldeer.svg'
+					url               :
+						'https://cdn.statically.io/gh/saiashish90/react_portfolio/f54c96c1/src/assets/img/SA.svg'
 				}
 			}}
 		/>
