@@ -17938,6 +17938,7 @@ video {
 
 #custom-scroll {
   width: 100vw;
+  z-index: 0;
   height: 100vh;
   overflow: auto;
 }

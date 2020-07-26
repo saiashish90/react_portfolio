@@ -8,12 +8,6 @@ import Header from './header/header';
 import Home from './home';
 import About from './about';
 
-import Scrollbar from 'smooth-scrollbar';
-
-Scrollbar.init(document.querySelector('#custom-scroll'), {
-	damping : 0.06
-});
-
 ReactDOM.render(
 	<React.StrictMode>
 		<Header />
