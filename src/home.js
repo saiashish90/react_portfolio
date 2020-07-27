@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './css/styles.css';
+import './styles.css';
 
 import Particles from 'react-tsparticles';
 import { Link } from 'react-scroll';

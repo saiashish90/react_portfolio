@@ -5,7 +5,7 @@ import Home from './home';
 import About from './about';
 import Skills from './skills';
 
-import './css/styles.css';
+import './styles.css';
 
 function App() {
 	return (

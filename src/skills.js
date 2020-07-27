@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './css/styles.css';
+import './styles.css';
 function skills() {
 	return (
 		<section className="py-3 px-2 w-11/12 mx-auto bg-secondaryDark rounder smoothAfShadow" id="skills">

@@ -14715,7 +14715,7 @@ video {
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
-@import url('../assets/css/icon.css');
+@import url('./icon.css');
 
 @media (min-width: 640px) {
   .sm\:container {
