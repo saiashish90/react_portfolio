@@ -7,7 +7,7 @@ function about() {
 				<h1 className="text-primaryHighlight text-4xl title">About</h1>
 			</div>
 			<div className="flex flex-wrap overflow-hidden">
-				<div className="w-full overflow-hidden md:w-1/2 mb-5">
+				<div className="w-full overflow-hidden lg:w-1/2 mb-5">
 					<img
 						className="w-5/12 mx-auto rounded-lg object-center"
 						src={require('./assets/img/about.jpg')}
@@ -15,9 +15,9 @@ function about() {
 					/>
 				</div>
 
-				<div className="w-full overflow-hidden md:w-1/2 mb-5 text-white flex pr-auto lg:pr-64  items-center">
-					<div>
-						<h1 className="m-auto text-3xl font-bold">I am Ashish</h1>
+				<div className="w-full overflow-hidden lg:w-1/2 mb-5 text-white flex pr-auto lg:pr-64 items-center">
+					<div className="mx-auto lg:mx-0">
+						<h1 className="text-center lg:text-left m-auto text-3xl font-bold">I am Ashish</h1>
 						<h1 className="m-auto text-xl font-semibold">Education</h1>
 						<p className="m-auto mb-5 text-base font-normal">
 							<span className="text-secondaryHighlight">B.Tech Computer Science</span> in Reva University.<br />
@@ -27,7 +27,7 @@ function about() {
 							School(ICSE)
 						</p>
 						<p className="m-auto text-xl font-semibold">Areas of interest</p>
-						<ul className="list-disc">
+						<ul>
 							<li>UI/UX Design</li>
 							<li>Machine learning and artificial intelligence.</li>
 							<li>Computer vision and image recognition.</li>

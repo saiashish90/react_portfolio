@@ -45,6 +45,9 @@ body {
 	width: 15px;
 	float: right;
 }
+.menu-icon:hover .menu-icon__line {
+	background-color: #66fcf1;
+}
 
 .nav {
 	position: fixed;

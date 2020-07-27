@@ -64,7 +64,6 @@ function App() {
 	//Set the height of the body to the height of the scrolling div
 	const setBodyHeight = () => {
 		document.body.style.height = `${scrollContainer.current.getBoundingClientRect().height + 150}px`;
-		console.log(document.body.style.height);
 	};
 	return (
 		<div ref={app} className="App">
