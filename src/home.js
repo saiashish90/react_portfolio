@@ -85,7 +85,7 @@ function home() {
 							<h1 className="m-auto text-6xl font-bold">
 								Hi,<br />I am <span className="text-primaryHighlight">Ashish</span>
 							</h1>
-							<button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative z-10">
+							<button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative z-0">
 								<Link
 									activeClass="active"
 									to="about"
