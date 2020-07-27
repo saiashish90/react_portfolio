@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import './header.css';
-import '../styles.css';
+import '../css/styles.css';
 import { Link } from 'react-scroll';
 
 export default function Navbar() {
