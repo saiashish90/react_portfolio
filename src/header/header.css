@@ -18,9 +18,11 @@ body {
 	width: 30px;
 	position: fixed;
 	z-index: 2;
-	right: 50px;
+	right: 100px;
 	top: 30px;
 	cursor: pointer;
+	display: flex;
+	flex-direction: row;
 }
 
 .menu-icon__line {

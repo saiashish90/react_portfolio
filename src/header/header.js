@@ -44,12 +44,22 @@ export default function Navbar() {
 				<span className="menu-icon__line" />
 				<span className="menu-icon__line menu-icon__line-right" />
 			</div>
-			<div className="menu-social text-white">asdasd</div>
+			<div className="menu-social text-white">
+				<a href="https://www.linkedin.com/in/sai-ashish-ba927a1b2/" target="_blank">
+					<i class="bx mr-4 bxl-linkedin" />
+				</a>
+				<a href="https://github.com/saiashish90" target="_blank">
+					<i class="bx mr-4 bxl-github" />
+				</a>
+				<a href="https://profile.codersrank.io/user/saiashish90" target="_blank">
+					<i class="bx mr-4 bx-code-alt" />
+				</a>
+			</div>
 			<div className="nav">
 				<div id="nav" className="nav__content text-center">
 					<ul className="nav__list">
 						<li className="flex justify-center sm:inline-block nav__list-item">
-							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>
 								Home
 							</Link>
 						</li>
@@ -59,7 +69,7 @@ export default function Navbar() {
 							</Link>
 						</li>
 						<li className="flex justify-center sm:inline-block nav__list-item">
-							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}>
 								Skills
 							</Link>
 						</li>

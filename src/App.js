@@ -3,6 +3,7 @@ import React, { useRef, useEffect, useCallback } from 'react';
 import Header from './header/header';
 import Home from './home';
 import About from './about';
+import Skills from './skills';
 import useWindowSize from './hooks/useWindowSize';
 
 import './css/styles.css';
@@ -34,7 +35,7 @@ function App() {
 			const difference = data.current - data.rounded;
 			const acceleration = difference / size.width;
 			const velocity = +acceleration;
-			const skew = velocity * 7.5;
+			const skew = velocity * 0;
 
 			//Assign skew and smooth scrolling to the scroll container
 			scrollContainer.current.style.transform = `translate3d(0, -${data.rounded}px, 0) skewY(${skew}deg)`;
@@ -62,7 +63,7 @@ function App() {
 
 	//Set the height of the body to the height of the scrolling div
 	const setBodyHeight = () => {
-		document.body.style.height = `${scrollContainer.current.getBoundingClientRect().height + 200}px`;
+		document.body.style.height = `${scrollContainer.current.getBoundingClientRect().height + 150}px`;
 		console.log(document.body.style.height);
 	};
 	return (
@@ -70,7 +71,8 @@ function App() {
 			<Header />
 			<div ref={scrollContainer} className="scroll">
 				<Home />
-				<About className="about" />
+				<About />
+				<Skills />
 			</div>
 		</div>
 	);

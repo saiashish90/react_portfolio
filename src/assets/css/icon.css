@@ -1,33 +1,37 @@
 .icon {
 	display: inline-block;
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	margin-right: .75rem;
 }
-.python {
-	content: url('../icons/python-language-logotype.svg');
+.c {
+	content: url('../icons/c.svg');
 }
-.bootstrap {
-	content: url('../icons/bxl-bootstrap.svg');
+.cpp {
+	content: url('../icons/c++.svg');
 }
-.css {
-	content: url('../icons/bxl-css3.svg');
+.tailwind {
+	content: url('../icons/tailwindcss.svg');
 }
-.html {
-	content: url('../icons/bxl-html5.svg');
+.flutter {
+	content: url('../icons/flutterio-icon.svg');
 }
-.js {
-	content: url('../icons/bxl-javascript.svg');
+.dart {
+	content: url('../icons/dartlang-icon.svg');
 }
-.nodejs {
-	content: url('../icons/bxl-nodejs.svg');
+.pytorch {
+	content: url('../icons/pytorch-icon.svg');
 }
-.php {
-	content: url('../icons/php.svg');
+.tensorflow {
+	content: url('../icons/tensorflow-icon.svg');
+}
+.opencv {
+	content: url('../icons/opencv-icon.svg');
+}
+.sql {
+	width: 35px;
+	content: url('../icons/mysql-official.svg');
 }
 .mongodb {
-	content: url('../icons/storage.svg');
-}
-.mysql {
-	content: url('../icons/mysql.svg');
+	content: url('../icons/mongodb-icon.svg');
 }

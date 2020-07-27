@@ -2,7 +2,7 @@ import React from 'react';
 import './css/styles.css';
 function about() {
 	return (
-		<section className="py-3 px-2 w-11/12 mx-auto bg-secondaryDark rounder smoothAfShadow" id="about">
+		<section className="py-3 px-2 w-11/12 mx-auto mb-32 bg-secondaryDark rounder smoothAfShadow" id="about">
 			<div className="w-100 text-center mt-2 mb-5">
 				<h1 className="text-primaryHighlight text-4xl title">About</h1>
 			</div>
@@ -19,14 +19,14 @@ function about() {
 					<div>
 						<h1 className="m-auto text-3xl font-bold">I am Ashish</h1>
 						<h1 className="m-auto text-xl font-semibold">Education</h1>
-						<p className="m-auto text-base font-normal">
+						<p className="m-auto mb-5 text-base font-normal">
 							<span className="text-secondaryHighlight">B.Tech Computer Science</span> in Reva University.<br />
 							<span className="text-secondaryHighlight">Secondary Schooling</span> in Sindhi High
 							School(CBSE)<br />
 							<span className="text-secondaryHighlight">Primary Schooling</span> in Presidency
 							School(ICSE)
 						</p>
-						<p className="m-auto mt-3 text-xl font-semibold">Areas of interest</p>
+						<p className="m-auto text-xl font-semibold">Areas of interest</p>
 						<ul className="list-disc">
 							<li>UI/UX Design</li>
 							<li>Machine learning and artificial intelligence.</li>
