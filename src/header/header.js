@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import './header.css';
 import '../css/styles.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default function Navbar() {
 	console.clear();
@@ -12,7 +13,7 @@ export default function Navbar() {
 			const init = () => {
 				body = document.querySelector('body');
 				menu = document.querySelector('.menu-icon');
-
+				document.getElementById('nav').style.pointerEvents = 'none';
 				applyListeners();
 			};
 
@@ -21,8 +22,14 @@ export default function Navbar() {
 			};
 
 			const toggleClass = (element, stringClass) => {
-				if (element.classList.contains(stringClass)) element.classList.remove(stringClass);
-				else element.classList.add(stringClass);
+				if (element.classList.contains(stringClass)) {
+					document.getElementById('nav').style.pointerEvents = 'none';
+					element.classList.remove(stringClass);
+				} else {
+					console.log(element);
+					document.getElementById('nav').style.pointerEvents = 'auto';
+					element.classList.add(stringClass);
+				}
 			};
 			const divs = document.querySelectorAll('.nav__list-item');
 
@@ -39,17 +46,33 @@ export default function Navbar() {
 			</div>
 			<div className="menu-social text-white">asdasd</div>
 			<div className="nav">
-				<div className="nav__content text-center">
+				<div id="nav" className="nav__content text-center">
 					<ul className="nav__list">
 						<li className="flex justify-center sm:inline-block nav__list-item">
-							<a href="#home">Home</a>
+							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+								Home
+							</Link>
 						</li>
 						<li className="flex justify-center sm:inline-block nav__list-item">
-							<a href="#about">About</a>
+							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+								About
+							</Link>
 						</li>
-						<li className="flex justify-center sm:inline-block nav__list-item">Skills</li>
-						<li className="flex justify-center sm:inline-block nav__list-item">Work</li>
-						<li className="flex justify-center sm:inline-block nav__list-item">Contact</li>
+						<li className="flex justify-center sm:inline-block nav__list-item">
+							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+								Skills
+							</Link>
+						</li>
+						<li className="flex justify-center sm:inline-block nav__list-item">
+							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+								Work
+							</Link>
+						</li>
+						<li className="flex justify-center sm:inline-block nav__list-item">
+							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+								Contact Me
+							</Link>
+						</li>
 					</ul>
 				</div>
 			</div>

@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import './css/styles.css';
 
 import Particles from 'react-tsparticles';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 function home() {
 	return (
@@ -82,11 +83,19 @@ function home() {
 					<div className="w-full overflow-hidden md:w-1/2 text-white flex items-center">
 						<div className="mx-auto">
 							<h1 className="m-auto text-6xl font-bold">
-								Hi,<br />I am <span className="text-pallete-highlight">Ashish</span>
+								Hi,<br />I am <span className="text-primaryHighlight">Ashish</span>
 							</h1>
-							<button className="bg-pallete-highlight text-black font-semibold text-sm py-3 px-8 rounded-lg">
-								Contact
-							</button>
+							<Link
+								className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative z-10"
+								activeClass="active"
+								to="about"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								See my work
+							</Link>
 						</div>
 					</div>
 					<div className="w-full hidden md:block overflow-hidden md:w-1/2">
