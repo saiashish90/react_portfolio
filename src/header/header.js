@@ -46,13 +46,13 @@ export default function Navbar() {
 			</div>
 			<div className="menu-social text-white">
 				<a href="https://www.linkedin.com/in/sai-ashish-ba927a1b2/" target="_blank">
-					<i class="bx mr-4 bxl-linkedin" />
+					<i className="bx mr-4 bxl-linkedin" />
 				</a>
 				<a href="https://github.com/saiashish90" target="_blank">
-					<i class="bx mr-4 bxl-github" />
+					<i className="bx mr-4 bxl-github" />
 				</a>
 				<a href="https://profile.codersrank.io/user/saiashish90" target="_blank">
-					<i class="bx mr-4 bx-code-alt" />
+					<i className="bx mr-4 bx-code-alt" />
 				</a>
 			</div>
 			<div className="nav">

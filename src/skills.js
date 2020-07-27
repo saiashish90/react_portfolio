@@ -14,10 +14,10 @@ function skills() {
 						<h1 className="text-xl self-center ">Web Design</h1>
 						<div className="flex justify-between">
 							<div className="text-3xl text-left">
-								<i class="fab fa-html5 mr-5" />
-								<i class="fab fa-css3-alt mr-5" />
-								<i class="fab fa-sass mr-5" />
-								<i class="fab fa-js-square mr-5" />
+								<i className="fab fa-html5 mr-5" />
+								<i className="fab fa-css3-alt mr-5" />
+								<i className="fab fa-sass mr-5" />
+								<i className="fab fa-js-square mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(html/css/sass/js)
@@ -30,7 +30,7 @@ function skills() {
 						<h1 className="text-xl self-center ">Python</h1>
 						<div className="flex justify-between">
 							<div className="text-3xl text-left">
-								<i class="fab fa-python mr-5" />
+								<i className="fab fa-python mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(python2/python3)
@@ -43,8 +43,8 @@ function skills() {
 						<h1 className="text-xl self-center ">Backend development</h1>
 						<div className="flex justify-between">
 							<div className="text-3xl text-left">
-								<i class="fab fa-php mr-5" />
-								<i class="fab fa-node mr-5" />
+								<i className="fab fa-php mr-5" />
+								<i className="fab fa-node mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(php/nodeJS/expressjs)
@@ -59,7 +59,7 @@ function skills() {
 							<div className="text-3xl text-left">
 								<i className="icon c mr-5" />
 								<i className="icon cpp mr-5" />
-								<i class="fab fa-java mr-5" />
+								<i className="fab fa-java mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(c/c++/java)
@@ -75,9 +75,9 @@ function skills() {
 						<h1 className="text-xl self-center ">Web frameworks</h1>
 						<div className="flex justify-between">
 							<div className="text-3xl text-left">
-								<i class="fab fa-react mr-5" />
-								<i class="fab fa-bootstrap mr-5" />
-								<i class="icon tailwind mr-5" />
+								<i className="fab fa-react mr-5" />
+								<i className="fab fa-bootstrap mr-5" />
+								<i className="icon tailwind mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(reactjs/bootstrap/tailwindcss)
@@ -90,8 +90,8 @@ function skills() {
 						<h1 className="text-xl self-center ">Cross platform development</h1>
 						<div className="flex justify-between">
 							<div className="text-3xl text-left">
-								<i class="icon flutter mr-5" />
-								<i class="icon dart mr-5" />
+								<i className="icon flutter mr-5" />
+								<i className="icon dart mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(flutter/dart)
@@ -104,9 +104,9 @@ function skills() {
 						<h1 className="text-xl self-center ">Machine learning frameworks</h1>
 						<div className="flex justify-between">
 							<div className="text-3xl text-left">
-								<i class="icon pytorch mr-5" />
-								<i class="icon tensorflow mr-5" />
-								<i class="icon opencv mr-5" />
+								<i className="icon pytorch mr-5" />
+								<i className="icon tensorflow mr-5" />
+								<i className="icon opencv mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(pytorch/tensorflow/opencv)
@@ -119,8 +119,8 @@ function skills() {
 						<h1 className="text-xl self-center ">Database management systems</h1>
 						<div className="flex justify-between">
 							<div className="text-3xl text-left">
-								<i class="icon sql mr-5" />
-								<i class="icon mongodb mr-5" />
+								<i className="icon sql mr-5" />
+								<i className="icon mongodb mr-5" />
 							</div>
 							<p className="uppercase my-1 text-secondaryHighlight text-lg font-semibold text-left self-center">
 								(sql/mongodb)
