@@ -16,7 +16,7 @@ function App() {
 
 	// Configs
 	const data = {
-		ease     : 0.1,
+		ease     : 0.08,
 		current  : 0,
 		previous : 0,
 		rounded  : 0
@@ -35,7 +35,7 @@ function App() {
 			const difference = data.current - data.rounded;
 			const acceleration = difference / size.width;
 			const velocity = +acceleration;
-			const skew = velocity * 0;
+			const skew = velocity * 7.5;
 
 			//Assign skew and smooth scrolling to the scroll container
 			scrollContainer.current.style.transform = `translate3d(0, -${data.rounded}px, 0) skewY(${skew}deg)`;
