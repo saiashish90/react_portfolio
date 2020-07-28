@@ -3,7 +3,7 @@ import React from 'react';
 import './css/styles.css';
 function skills() {
 	return (
-		<section className="py-3 px-2 w-11/12 mx-auto bg-secondaryDark rounder smoothAfShadow" id="skills">
+		<section className="py-3 px-2 w-11/12 mx-auto mb-32 bg-secondaryDark rounder smoothAfShadow" id="skills">
 			<div className="w-100 text-center mt-2 mb-5">
 				<h1 className="text-primaryHighlight text-4xl title">Skills</h1>
 			</div>

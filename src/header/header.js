@@ -4,44 +4,62 @@ import '../css/styles.css';
 import { Link } from 'react-scroll';
 
 export default function Navbar() {
+	function leftButton() {
+		if (window.location.pathname === '/') {
+			return (
+				<div className="menu-icon ">
+					<span className="menu-icon__line menu-icon__line-left " />
+					<span className="menu-icon__line " />
+					<span className="menu-icon__line menu-icon__line-right " />
+				</div>
+			);
+		} else {
+			return (
+				<div className="menu-icon">
+					<a href="/">
+						<i class="bx bx-arrow-back text-white hover:text-primaryHighlight" />
+					</a>
+				</div>
+			);
+		}
+	}
 	window.onload = () => {
 		(() => {
-			let body;
-			let menu;
+			if (window.location.pathname === '/') {
+				let body;
+				let menu;
 
-			const init = () => {
-				body = document.querySelector('body');
-				menu = document.querySelector('.menu-icon');
-				document.getElementById('nav').style.pointerEvents = 'none';
-				applyListeners();
-			};
-
-			const applyListeners = () => {
-				menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
-			};
-
-			const toggleClass = (element, stringClass) => {
-				if (element.classList.contains(stringClass)) {
+				const init = () => {
+					body = document.querySelector('body');
+					menu = document.querySelector('.menu-icon');
 					document.getElementById('nav').style.pointerEvents = 'none';
-					element.classList.remove(stringClass);
-				} else {
-					document.getElementById('nav').style.pointerEvents = 'auto';
-					element.classList.add(stringClass);
-				}
-			};
-			const divs = document.querySelectorAll('.nav__list-item');
+					applyListeners();
+				};
 
-			divs.forEach((el) => el.addEventListener('click', () => toggleClass(body, 'nav-active')));
-			init();
+				const applyListeners = () => {
+					menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
+				};
+
+				const toggleClass = (element, stringClass) => {
+					if (element.classList.contains(stringClass)) {
+						document.getElementById('nav').style.pointerEvents = 'none';
+						element.classList.remove(stringClass);
+					} else {
+						document.getElementById('nav').style.pointerEvents = 'auto';
+						element.classList.add(stringClass);
+					}
+				};
+				const divs = document.querySelectorAll('.nav__list-item');
+
+				divs.forEach((el) => el.addEventListener('click', () => toggleClass(body, 'nav-active')));
+				init();
+			}
 		})();
 	};
 	return (
 		<Fragment>
-			<div className="menu-icon ">
-				<span className="menu-icon__line menu-icon__line-left " />
-				<span className="menu-icon__line " />
-				<span className="menu-icon__line menu-icon__line-right " />
-			</div>
+			{leftButton()}
+
 			<div className="menu-social text-white">
 				<a href="https://www.linkedin.com/in/sai-ashish-ba927a1b2/" target="_blank" rel="noopener noreferrer">
 					<i className="bx mr-4 bxl-linkedin hover:text-primaryHighlight" />
@@ -72,7 +90,7 @@ export default function Navbar() {
 							</Link>
 						</li>
 						<li className="flex justify-center sm:inline-block nav__list-item">
-							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+							<Link activeClass="active" to="work" spy={true} smooth={true} offset={-70} duration={500}>
 								Work
 							</Link>
 						</li>

@@ -12,7 +12,13 @@
 .rounder {
 	border-radius: 1rem;
 }
-
+.hover {
+	transition: 1s;
+	cursor: pointer;
+}
+.hover:hover {
+	transform: scale(1.1);
+}
 @import url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 @import url('../assets/css/icon.css');

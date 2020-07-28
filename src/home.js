@@ -85,18 +85,12 @@ function home() {
 							<h1 className="m-auto text-6xl font-bold">
 								Hi,<br />I am <span className="text-primaryHighlight">Ashish</span>
 							</h1>
-							<button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative z-0">
-								<Link
-									activeClass="active"
-									to="about"
-									spy={true}
-									smooth={true}
-									offset={-70}
-									duration={500}
-								>
+
+							<Link activeClass="active" to="work" spy={true} smooth={true} offset={-70} duration={500}>
+								<button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative z-0">
 									See my work
-								</Link>
-							</button>
+								</button>
+							</Link>
 						</div>
 					</div>
 					<div className="w-full hidden md:block overflow-hidden md:w-1/2">
