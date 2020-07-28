@@ -6,7 +6,7 @@ import './css/index.css';
 // components
 import App from './App';
 import Header from './header/header';
-import Work1 from './mywork/work1';
+import Work1 from './mywork/work1.js';
 
 ReactDOM.render(
 	<React.StrictMode>
