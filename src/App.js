@@ -8,6 +8,10 @@ import Work from './work';
 import './css/styles.css';
 
 function App() {
+	React.useEffect(() => {
+		document.getElementById('menu').style.display = 'block';
+		document.getElementById('back').style.display = 'none';
+	});
 	return (
 		<div>
 			<Home />

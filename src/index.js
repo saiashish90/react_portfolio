@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import ScrollMemory from 'react-router-scroll-memory';
 // css
 import './css/index.css';
 // components
@@ -10,8 +11,9 @@ import Work1 from './mywork/work1.js';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Header />
 		<Router>
+			<Header />
+			<ScrollMemory />
 			<Route exact path="/" component={App} />
 			<Route exact path="/work1" component={Work1} />
 		</Router>

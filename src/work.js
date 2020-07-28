@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/styles.css';
+import { Link } from 'react-router-dom';
 function work() {
 	return (
 		<section className="py-3 px-5 w-11/12 mx-auto bg-secondaryDark rounder smoothAfShadow" id="work">
@@ -10,9 +11,9 @@ function work() {
 				<div className="w-full overflow-hidden text-center md:w-1/2 lg:w-1/3 mb-5">
 					{/* work1 */}
 					<div className="shadow m-10 rounded-lg overflow-hidden">
-						<a href="/work1">
+						<Link to="/work1">
 							<img className="hover" src={require('./assets/img/work1.jpg')} alt="work1" />
-						</a>
+						</Link>
 					</div>
 					{/* work1 */}
 				</div>
