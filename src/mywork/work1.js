@@ -186,7 +186,7 @@ function Work1() {
 					href="https://drive.google.com/file/d/1xeusPJoEbXU9-dHEAH4oOEDjBaOFvMqX/view?usp=sharing"
 					target="_blank"
 					rel="noopener noreferrer"
-					aria-label="read more information about this"
+					aria-label="readinformation"
 				>
 					<span className="text-base text-primaryHighlight ml-10">Read full report</span>
 				</a>
