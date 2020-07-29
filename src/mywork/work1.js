@@ -1,20 +1,32 @@
 import React, { Fragment } from 'react';
 import '../css/styles.css';
+import ProgressiveImage from 'react-progressive-image';
 function Work1() {
 	React.useEffect(() => {
 		document.getElementById('menu').style.display = 'none';
 		document.getElementById('back').style.display = 'block';
 	});
-
 	return (
 		<Fragment>
 			<div className="py-20 text-center leading-7">
 				{/* section 1 */}
-				<div className="py-8 w-11/12 md:w-3/4 mx-auto bg-secondaryDark rounder smoothAfShadow">
+				<div className="py-8 w-11/12 h-auto md:w-3/4 mx-auto bg-secondaryDark rounder smoothAfShadow">
 					<h1 className="text-white text-2xl font-semibold ">
 						Robot exploration using game theory algorithms
 					</h1>
-					<img className=" mx-auto w-10/12" src={require('../assets/img/iisc/iisc-internship.jpg')} alt="" />
+					<ProgressiveImage
+						src={require('../assets/img/iisc/iisc-internship.jpg')}
+						placeholder={require('../assets/img/iisc/iisc-internship_tn.jpg')}
+					>
+						{(src) => <img className=" mx-auto w-10/12" src={src} alt="project" />}
+					</ProgressiveImage>
+					{/* <img
+						className=" mx-auto w-10/12"
+						src={placeholderSrc(900, 506)}
+						data-src={require('../assets/img/iisc/iisc-internship.jpg')}
+						alt=""
+						onlo
+					/> */}
 				</div>
 				{/* section 2 */}
 				<div
