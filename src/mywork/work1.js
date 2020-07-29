@@ -55,6 +55,7 @@ function Work1() {
 									href="https://www.ros.org/"
 									target="_blank"
 									rel="noopener noreferrer"
+									aria-label="ros"
 								>
 									ROS
 								</a>
@@ -68,6 +69,7 @@ function Work1() {
 									href="https://www.python.org/"
 									target="_blank"
 									rel="noopener noreferrer"
+									aria-label="python"
 								>
 									Python
 								</a>- ROS provides a library for python called Rospy. This library has various functions
@@ -79,6 +81,7 @@ function Work1() {
 									href="http://gazebosim.org/"
 									target="_blank"
 									rel="noopener noreferrer"
+									aria-label="gazebo"
 								>
 									Gazebo
 								</a>- Gazebo is an open-source 3D robotics simulator. Gazebo can use multiple high-
@@ -92,6 +95,7 @@ function Work1() {
 									href="http://wiki.ros.org/rviz"
 									target="_blank"
 									rel="noopener noreferrer"
+									aria-label="rviz"
 								>
 									RVIZ
 								</a>- RVIZ is a ROS graphical interface that allows you to visualize the information
@@ -168,14 +172,23 @@ function Work1() {
 				</div>
 				{/* section 6 */}
 
-				<a className="w-1/2" href="https://github.com/saiashish90/differential_drive_robot">
+				<a
+					className="w-1/2"
+					href="https://github.com/saiashish90/differential_drive_robot"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="code"
+				>
 					<span className="text-base text-primaryHighlight mr-10">Source code</span>
 				</a>
 				<a
 					className="w-1/2"
 					href="https://drive.google.com/file/d/1xeusPJoEbXU9-dHEAH4oOEDjBaOFvMqX/view?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="read more information about this"
 				>
-					<span className="text-base text-primaryHighlight ml-10">Read more</span>
+					<span className="text-base text-primaryHighlight ml-10">Read full report</span>
 				</a>
 			</div>
 			<footer className="bg-secondaryDark py-5 rounded-t-lg text-center">
@@ -184,13 +197,24 @@ function Work1() {
 						href="https://www.linkedin.com/in/sai-ashish-ba927a1b2/"
 						target="_blank"
 						rel="noopener noreferrer"
+						aria-label="linkedin"
 					>
 						<i className="bx mr-4 bxl-linkedin hover:text-primaryHighlight" />
 					</a>
-					<a href="https://github.com/saiashish90" target="_blank" rel="noopener noreferrer">
+					<a
+						href="https://github.com/saiashish90"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="github"
+					>
 						<i className="bx mr-4 bxl-github hover:text-primaryHighlight" />
 					</a>
-					<a href="https://profile.codersrank.io/user/saiashish90" target="_blank" rel="noopener noreferrer">
+					<a
+						href="https://profile.codersrank.io/user/saiashish90"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="coderank"
+					>
 						<i className="bx mr-4 bx-code-alt hover:text-primaryHighlight" />
 					</a>
 				</div>
