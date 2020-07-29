@@ -10,9 +10,9 @@ function work() {
 			<div className="flex flex-wrap overflow-hidden text-white">
 				<div className="w-full overflow-hidden text-center md:w-1/2 lg:w-1/3 mb-5">
 					{/* work1 */}
-					<div className="shadow m-10 rounded-lg overflow-hidden">
+					<div className="shadow m-10 text-ce rounded-lg overflow-hidden">
 						<Link to="/work1">
-							<img className="hover" src={require('./assets/img/iisc/iisc-internship.jpg')} alt="work1" />
+							<img className="hover" src={require('./assets/img/iisc-internship-thum.jpg')} alt="work1" />
 						</Link>
 					</div>
 					{/* work1 */}

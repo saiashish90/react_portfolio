@@ -14720,6 +14720,15 @@ video {
   transform: scale(1.1);
 }
 
+.workImageCaption {
+  position: absolute;
+  top: 10rem;
+  left: 4rem;
+  color: white;
+  background: rgba(0, 0, 0, .9);
+  padding: 5px;
+}
+
 @import url('https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css');
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
