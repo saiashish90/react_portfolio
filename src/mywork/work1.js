@@ -25,11 +25,11 @@ function Work1() {
 						<ul className="list-disc list-inside">
 							<span className="text-xl text-primaryHighlight">Objectives</span>
 							<li>
-								The aim of the project was to explore a given region using a set of robots and to
-								generate a map of the area.
+								The project aimed to explore a given region using a set of robots and to generate a map
+								of the area.
 							</li>
 							<li>
-								The robots must be able to detect and avoid possible obstacles in real time without any
+								The robots must be able to detect and avoid possible obstacles in real-time without any
 								input from the user.
 							</li>
 							<li>
@@ -41,14 +41,10 @@ function Work1() {
 					<p className="my-5 text-left text-gray-400 text-base">
 						<span className="text-primaryHighlight text-xl">Approach</span>
 						<br />
-						The main task of the robot is to keep a map of the area and to explore the entire region, for
-						this we store the map in the form of a matrix with 0 denoting an unexplored area and 1 being an
-						explored region. The by using the laser scanner present on the robot we can explore the area and
-						set the points in the range of the scanner to 1, after this we select a new point to which the
-						robot travels. After reaching this point it scans all the neighboring points and marks them as
-						explored areas. To enable multiple robots to be used we add a Bluetooth communication module on
-						the robots. This lets them share information about the points they have explored to avoid
-						overlapping of points.
+						The main task of the robot is to create a map of an unexplored area by co-ordinating with other
+						robots and sharing information with them.<br />
+						It has to explore the entire region without any input from a human and therefore it must have
+						obstacle avoidance capabilities and should be able to make a decision on its own.
 					</p>
 					<p className="my-5 text-left text-gray-400 text-base">
 						<ul className="list-disc list-inside">
@@ -85,9 +81,9 @@ function Work1() {
 									rel="noopener noreferrer"
 								>
 									Gazebo
-								</a>- Gazebo is an open-source 3D robotics simulator. Gazebo can use multiple high-
+								</a>- Gazebo is an open-source 3D robotics simulator. Gazebo can use multiple high-
 								performance physics engines, such as ODE and Bullet. It provides realistic rendering of
-								environments including high-quality lighting, shadows, and textures. This allow the
+								environments including high-quality lighting, shadows, and textures. This allows the
 								sensors on the robot to be tested in a realistic environment.
 							</li>
 							<li className="mb-5">
@@ -123,10 +119,10 @@ function Work1() {
 							</figure>
 						</div>
 						The entire code for each robot is modular, this lets us spawn multiple robots just by changing
-						the number of robots that we want. The robots broadcast their data using bluetooth, this data
+						the number of robots that we want. The robots broadcast their data using Bluetooth, this data
 						can be used by other robots to figure out their next course of action.<br /> Each robot produces
-						its own map of the area. These maps can be combined using image recognition software to produce
-						a higher resolution map than what would have been possible with a single robot.
+						a map of the area. These maps can be combined using image recognition software to produce a
+						higher resolution map than what would have been possible with a single robot.
 					</p>
 				</div>
 				{/* section 4 */}
@@ -151,7 +147,7 @@ function Work1() {
 									In this algorithm, once a robot reaches a point, it can take 2 actions, one is to
 									turn toward a direction and other is to go forward, here we do not calculate the
 									utility based on the adjacency matrix but rather based on what action the other
-									robot are about to perform.
+									robots are about to perform.
 								</li>
 							</ul>
 						</ul>
