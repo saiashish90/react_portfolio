@@ -8,7 +8,7 @@ function Work1() {
 
 	return (
 		<Fragment>
-			<div className="py-20 text-center">
+			<div className="py-20 text-center leading-7">
 				{/* section 1 */}
 				<div className="py-8 w-11/12 md:w-3/4 mx-auto bg-secondaryDark rounder smoothAfShadow">
 					<h1 className="text-white text-2xl font-semibold ">
