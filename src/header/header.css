@@ -13,6 +13,16 @@ body {
 	top: 30px;
 	cursor: pointer;
 }
+.menu-icon-back {
+	height: 30px;
+	width: 30px;
+	position: fixed;
+	z-index: 2;
+	left: 50px;
+	top: 30px;
+	cursor: pointer;
+}
+
 .menu-social {
 	height: 30px;
 	width: 30px;

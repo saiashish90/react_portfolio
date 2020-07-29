@@ -20,14 +20,10 @@ function about() {
 						<h1 className="text-center lg:text-left m-auto text-3xl font-bold">I am Ashish</h1>
 						<h1 className="m-auto text-xl font-semibold">Education</h1>
 						<p className="m-auto mb-5 text-base font-normal">
-							<span className="text-secondaryHighlight">B.Tech Computer Science</span> in Reva University.<br />
-							<span className="text-secondaryHighlight">Secondary Schooling</span> in Sindhi High
-							School(CBSE)<br />
-							<span className="text-secondaryHighlight">Primary Schooling</span> in Presidency
-							School(ICSE)
+							<span className="text-secondaryHighlight">Bachelors in Computer Science</span>
 						</p>
 						<p className="m-auto text-xl font-semibold">Areas of interest</p>
-						<ul>
+						<ul className="list-disc list-inside">
 							<li>UI/UX Design</li>
 							<li>Machine learning and artificial intelligence.</li>
 							<li>Computer vision and image recognition.</li>

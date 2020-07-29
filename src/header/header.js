@@ -44,7 +44,7 @@ export default function Navbar() {
 				<span className="menu-icon__line menu-icon__line-right " />
 			</div>
 
-			<div id="back" className="menu-icon hidden">
+			<div id="back" className="menu-icon-back hidden">
 				<ReactLink to="/">
 					<i className="bx bx-arrow-back text-white hover:text-primaryHighlight" />
 				</ReactLink>

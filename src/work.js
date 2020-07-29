@@ -3,7 +3,7 @@ import './css/styles.css';
 import { Link } from 'react-router-dom';
 function work() {
 	return (
-		<section className="py-3 px-5 w-11/12 mx-auto bg-secondaryDark rounder smoothAfShadow" id="work">
+		<section className="py-3 px-5 w-11/12 mb-32 mx-auto bg-secondaryDark rounder smoothAfShadow" id="work">
 			<div className="w-100 text-center mt-2 mb-5">
 				<h1 className="text-primaryHighlight text-4xl title">Work</h1>
 			</div>
@@ -12,7 +12,7 @@ function work() {
 					{/* work1 */}
 					<div className="shadow m-10 rounded-lg overflow-hidden">
 						<Link to="/work1">
-							<img className="hover" src={require('./assets/img/work1.jpg')} alt="work1" />
+							<img className="hover" src={require('./assets/img/iisc/iisc-internship.jpg')} alt="work1" />
 						</Link>
 					</div>
 					{/* work1 */}
