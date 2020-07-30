@@ -18,22 +18,15 @@ function Work1() {
 						src={require('../assets/img/iisc/iisc-internship.jpg')}
 						placeholder={require('../assets/img/iisc/iisc-internship_tn.jpg')}
 					>
-						{(src) => <img className=" mx-auto w-10/12" src={src} alt="project" />}
+						{(src) => <img className="my-5 mx-auto w-10/12" src={src} alt="project" />}
 					</ProgressiveImage>
-					{/* <img
-						className=" mx-auto w-10/12"
-						src={placeholderSrc(900, 506)}
-						data-src={require('../assets/img/iisc/iisc-internship.jpg')}
-						alt=""
-						onlo
-					/> */}
 				</div>
 				{/* section 2 */}
 				<div
 					className="my-5 py-8 px-5 md:px-12 w-11/12 md:w-3/4 mx-auto bg-secondaryDark rounder smoothAfShadow"
 					id="work"
 				>
-					<p className="text-left text-gray-400">
+					<div className="text-left text-gray-400">
 						<ul className="list-disc list-inside">
 							<span className="text-xl text-primaryHighlight">Objectives</span>
 							<li>
@@ -49,16 +42,16 @@ function Work1() {
 								area and to take images of the region.
 							</li>
 						</ul>
-					</p>
-					<p className="my-5 text-left text-gray-400 text-base">
+					</div>
+					<div className="my-5 text-left text-gray-400 text-base">
 						<span className="text-primaryHighlight text-xl">Approach</span>
 						<br />
 						The main task of the robot is to create a map of an unexplored area by co-ordinating with other
 						robots and sharing information with them.<br />
 						It has to explore the entire region without any input from a human and therefore it must have
 						obstacle avoidance capabilities and should be able to make a decision on its own.
-					</p>
-					<p className="my-5 text-left text-gray-400 text-base">
+					</div>
+					<div className="my-5 text-left text-gray-400 text-base">
 						<ul className="list-disc list-inside">
 							<span className="text-xl text-primaryHighlight">Technology Stack</span>
 							<li className="mb-3">
@@ -114,22 +107,22 @@ function Work1() {
 								being gathered by the robot's sensors.
 							</li>
 						</ul>
-					</p>
+					</div>
 				</div>
 				{/* Section 3 */}
 				<div className="my-5 py-8 px-5 md:px-12 w-11/12 md:w-3/4 mx-auto bg-secondaryDark rounder smoothAfShadow">
-					<p className="text-left text-gray-400 text-base">
+					<div className="text-left text-gray-400 text-base">
 						<span className="text-xl text-primaryHighlight">Robot</span>
 						<br />The robot is a simple 2 wheel differential drive robot with a caster wheel in front.<br />{' '}
 						It has a <span className="text-secondaryHighlight">laser sensor</span> for detection and range
 						finding and a <span className="text-secondaryHighlight">camera</span> to take images of its
 						surroundings.
-						<div class="flex-wrap flex md:flex-no-wrap my-4">
-							<figure className="w-100 mr-2 w-1/2">
+						<div className="flex-wrap flex md:flex-no-wrap my-4">
+							<figure className="w-100 mr-2 md:w-1/2">
 								<figcaption className="my-1">Robot model</figcaption>
 								<img src={require('../assets/img/iisc/robot.jpg')} alt="" />
 							</figure>
-							<figure className="w-100 mr-2 w-1/2">
+							<figure className="w-100 mr-2 md:w-1/2">
 								<figcaption className="my-1">Laser sensors</figcaption>
 								<img src={require('../assets/img/iisc/sensor.jpg')} alt="" />
 							</figure>
@@ -139,14 +132,14 @@ function Work1() {
 						can be used by other robots to figure out their next course of action.<br /> Each robot produces
 						a map of the area. These maps can be combined using image recognition software to produce a
 						higher resolution map than what would have been possible with a single robot.
-					</p>
+					</div>
 				</div>
 				{/* section 4 */}
 				<div
 					className="my-5 py-8 px-5 md:px-12 w-11/12 md:w-3/4 mx-auto bg-secondaryDark rounder smoothAfShadow"
 					id="work"
 				>
-					<p className="text-left text-gray-400">
+					<div className="text-left text-gray-400">
 						<ul className="list-disc list-inside">
 							<span className="text-xl text-primaryHighlight">Algorithms tested</span>
 							<ul className="list-disc my-4 list-inside">
@@ -172,7 +165,7 @@ function Work1() {
 							<img className="self-center" src={require('../assets/img/iisc/stat1.jpg')} alt="" />
 							<figcaption>X-Axis:Different start points</figcaption>
 						</figure>
-					</p>
+					</div>
 				</div>
 				{/* section 5 */}
 				<div

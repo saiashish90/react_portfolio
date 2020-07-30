@@ -8,6 +8,8 @@ import './css/index.css';
 import App from './App';
 import Header from './header/header';
 import Work1 from './mywork/work1.js';
+import FaceRec from './mywork/facerec';
+import Footer from './footer';
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -16,6 +18,8 @@ ReactDOM.render(
 			<ScrollMemory />
 			<Route exact path="/" component={App} />
 			<Route exact path="/work1" component={Work1} />
+			<Route exact path="/FaceRec" component={FaceRec} />
+			<Footer />
 		</Router>
 	</React.StrictMode>,
 	document.getElementById('root')

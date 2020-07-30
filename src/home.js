@@ -87,7 +87,7 @@ function home() {
 							</h1>
 
 							<Link activeClass="active" to="work" spy={true} smooth={true} offset={-70} duration={500}>
-								<button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative z-0">
+								<button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative focus:outline-none z-0">
 									See my work
 								</button>
 							</Link>
