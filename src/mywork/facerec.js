@@ -22,7 +22,7 @@ function FaceRec() {
 						href="http://www.ijarcs.info/index.php/Ijarcs/author/submission/6549"
 						target="_blank"
 						rel="noopener noreferrer"
-						aria-label="paper"
+						aria-label="publishedpaper"
 					>
 						<span className="text-lg text-primaryHighlight">Published paper</span>
 					</a>
@@ -109,7 +109,7 @@ function FaceRec() {
 					href="https://github.com/saiashish90/opencv-facial-recogniton"
 					target="_blank"
 					rel="noopener noreferrer"
-					aria-label="code"
+					aria-label="sourcecode"
 				>
 					<span className="text-base text-primaryHighlight mr-10">Source code</span>
 				</a>
