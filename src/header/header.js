@@ -2,10 +2,9 @@ import React, { Fragment } from 'react';
 import './header.css';
 import '../css/styles.css';
 import { Link } from 'react-scroll';
-import { useHistory } from 'react-router-dom';
+import { Link as ReactLink } from 'react-router-dom';
 
 export default function Navbar() {
-	let history = useHistory();
 	window.onload = () => {
 		(() => {
 			let body;
@@ -46,9 +45,9 @@ export default function Navbar() {
 			</div>
 
 			<div id="back" className="menu-icon-back hidden">
-				<button onClick={() => history.goBack()}>
+				<ReactLink to="/">
 					<i className="bx bx-arrow-back text-white hover:text-primaryHighlight" />
-				</button>
+				</ReactLink>
 			</div>
 
 			<div className="menu-social text-white">
