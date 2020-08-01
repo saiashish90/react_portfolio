@@ -19,7 +19,7 @@ function contact() {
 		>
 			<h1 className="text-primaryHighlight text-4xl mb-10">Contact</h1>
 
-			<div className="text-white w-5/6 md:w-3/6 lg:w-2/6 p-2 mx-auto mb-4">
+			<div className="text-white mb-4">
 				<h1>
 					If you would like me to help you with something,<br /> email me at :
 					<span className="text-secondaryHighlight">&nbsp;saiashish90@gmail.com</span>
