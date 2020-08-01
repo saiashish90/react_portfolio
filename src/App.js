@@ -4,6 +4,7 @@ import Home from './home';
 import About from './about';
 import Skills from './skills';
 import Work from './work';
+import Contact from './contact';
 
 import './css/styles.css';
 
@@ -18,6 +19,7 @@ function App() {
 			<About />
 			<Skills />
 			<Work />
+			<Contact />
 		</div>
 	);
 }

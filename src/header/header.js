@@ -95,7 +95,14 @@ export default function Navbar() {
 							</Link>
 						</li>
 						<li className="flex justify-center sm:inline-block nav__list-item">
-							<Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+							<Link
+								activeClass="active"
+								to="contact"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
 								Contact Me
 							</Link>
 						</li>

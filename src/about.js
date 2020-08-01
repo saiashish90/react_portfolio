@@ -17,7 +17,6 @@ function about() {
 
 				<div className="w-full overflow-hidden lg:w-1/2 mb-5 text-white flex pr-auto lg:pr-64 items-center">
 					<div className="mx-auto lg:mx-0">
-						<h1 className="text-center lg:text-left m-auto text-3xl font-bold">I am Ashish</h1>
 						<h1 className="m-auto text-xl font-semibold">Education</h1>
 						<p className="m-auto mb-5 text-base font-normal">
 							<span className="text-secondaryHighlight">Bachelors in Computer Science</span>
