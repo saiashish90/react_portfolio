@@ -7,8 +7,9 @@ import './css/index.css';
 // components
 import App from './App';
 import Header from './header/header';
-import Work1 from './mywork/work1.js';
+import IISC from './mywork/IISC.js';
 import FaceRec from './mywork/facerec';
+import SmartLight from './mywork/smartlight';
 import Footer from './footer';
 
 ReactDOM.render(
@@ -17,8 +18,9 @@ ReactDOM.render(
 			<Header />
 			<ScrollMemory />
 			<Route exact path="/" component={App} />
-			<Route exact path="/work1" component={Work1} />
+			<Route exact path="/IISC" component={IISC} />
 			<Route exact path="/FaceRec" component={FaceRec} />
+			<Route exact path="/SmartLight" component={SmartLight} />
 			<Footer />
 		</Router>
 	</React.StrictMode>,
