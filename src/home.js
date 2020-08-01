@@ -81,7 +81,7 @@ function home() {
 			<section className="h-screen w-100 flex flex-row items-center" id="home">
 				<div className="w-screen flex flex-wrap overflow-hidden ">
 					<div className="w-full overflow-hidden md:w-1/2 text-white flex items-center">
-						<div className="mx-auto">
+						<div className="mx-auto px-5 md:px-0">
 							<h1 className="m-auto text-6xl font-bold">
 								Hi,<br />I am <span className="text-primaryHighlight">Ashish</span>
 								<br />

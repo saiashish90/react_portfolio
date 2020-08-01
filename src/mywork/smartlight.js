@@ -86,7 +86,7 @@ function SmartLight() {
 					rel="noopener noreferrer"
 					aria-label="sourcecode"
 				>
-					<span className="text-base text-primaryHighlight mr-10">Source code</span>
+					<span className="text-base text-primaryHighlight">Source code</span>
 				</a>
 			</div>
 		</Fragment>
