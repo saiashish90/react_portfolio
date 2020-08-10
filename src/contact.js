@@ -55,7 +55,7 @@ function contact() {
 					</div>
 				</div>
 				<div className="w-full md:w-1/2 mb-5">
-					<form onSubmit={handleForm} className="w-11/12 md:w-3/4 mx-auto" autoComplete="off">
+					<form onSubmit={handleForm} className="w-11/12 md:w-3/4 mx-auto" autoComplete="off" netlify>
 						<h1 className="text-primaryHighlight text-2xl mb-8">Leave a message</h1>
 						<div className="mx-auto h-12 p-2 border w-full mb-8 rounded-lg text-left">
 							<input
