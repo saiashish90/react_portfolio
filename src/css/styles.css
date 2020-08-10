@@ -891,6 +891,11 @@ img {
     flex-wrap: nowrap;
   }
 
+  .md\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
