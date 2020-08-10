@@ -11,6 +11,17 @@
 </head>
 
 <body class="bg-primaryDark">
+    <form name='contact' onSubmit={handleForm} className="w-11/12 md:w-3/4 mx-auto" autoComplete="off" netlify hidden>
+        <input className="block w-full outline-none text-white bg-transparent" type="text" id="name" placeholder=" "
+            required />
+        <input className="block w-full outline-none text-white bg-transparent" type="text" id="email" placeholder=" "
+            required />
+        <textarea className="block  w-full outline-none text-white bg-transparent overflow-auto" id="message" cols="30"
+            rows="5" placeholder=" " required autoComplete="new-password" />
+        <button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative focus:outline-none z-0">
+            Submit
+        </button>
+    </form>
     <div id="root"></div>
 
 </body>
