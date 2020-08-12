@@ -10,6 +10,7 @@ import Header from './header/header';
 import IISC from './mywork/IISC.js';
 import FaceRec from './mywork/facerec';
 import SmartLight from './mywork/smartlight';
+import AppDesign from './mywork/appDesign';
 import Footer from './footer';
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
 			<Route exact path="/IISC" component={IISC} />
 			<Route exact path="/FaceRec" component={FaceRec} />
 			<Route exact path="/SmartLight" component={SmartLight} />
+			<Route exact path="/AppDesign" component={AppDesign} />
 			<Footer />
 		</Router>
 	</React.StrictMode>,

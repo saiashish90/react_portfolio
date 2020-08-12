@@ -46,7 +46,7 @@ function work() {
 								src={require('./assets/img/smartlight-thumb.jpg')}
 								placeholder={require('./assets/img/smartlight-thumb_tn.jpg')}
 							>
-								{(src) => <img className="hover w-full" src={src} alt="work2" />}
+								{(src) => <img className="hover w-full" src={src} alt="work3" />}
 							</ProgressiveImage>
 						</Link>
 					</div>
@@ -55,7 +55,14 @@ function work() {
 				<div className="w-full p-5 overflow-hidden text-center md:w-1/2 lg:w-1/3 mb-5">
 					{/* work4 */}
 					<div className="shadow m-7 mb-5 rounded-lg overflow-hidden">
-						<img className="hover" src={require('./assets/img/work4.jpg')} alt="work4" />
+						<Link to="/AppDesign">
+							<ProgressiveImage
+								src={require('./assets/img/appDesign-thumb.jpg')}
+								placeholder={require('./assets/img/appDesign-thumb_tn.jpg')}
+							>
+								{(src) => <img className="hover w-full" src={src} alt="work3" />}
+							</ProgressiveImage>
+						</Link>
 					</div>
 					{/* work4 */}
 				</div>
