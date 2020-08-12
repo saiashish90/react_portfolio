@@ -23,6 +23,7 @@ function AppDesign() {
 					className="my-5 py-8 px-5 md:px-12 w-11/12 md:w-3/4 mx-auto bg-secondaryDark rounder smoothAfShadow"
 					id="work"
 				>
+					<span className="text-xl text-primaryHighlight">Screens</span>
 					<div className="flex flex-wrap overflow-hidden text-white">
 						<div className="w-full p-5 overflow-hidden text-center md:w-1/2 lg:w-1/3 mb-5">
 							{/* work5 */}
