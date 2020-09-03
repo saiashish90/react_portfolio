@@ -66,20 +66,6 @@ function work() {
 					</div>
 					{/* work4 */}
 				</div>
-				<div className="w-full p-5 overflow-hidden text-center md:w-1/2 lg:w-1/3 mb-5">
-					{/* work5 */}
-					<div className="flex m-7 mb-5 rounded-lg overflow-hidden">
-						<img className="hover" src={require('./assets/img/work5.jpg')} alt="work5" />
-					</div>
-					{/* work5 */}
-				</div>
-				<div className="w-full p-5 overflow-hidden text-center md:w-1/2 lg:w-1/3 mb-5">
-					{/* work6 */}
-					<div className="shadow m-7 mb-5 rounded-lg overflow-hidden">
-						<img className="hover" src={require('./assets/img/work6.jpg')} alt="work6" />
-					</div>
-					{/* work6 */}
-				</div>
 			</div>
 		</section>
 	);
