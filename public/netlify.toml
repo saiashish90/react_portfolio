@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "api.sai-ashish.site"
+  to = "https://www.google.come"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
