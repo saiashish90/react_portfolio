@@ -2,6 +2,25 @@ import React from "react";
 import "./css/styles.css";
 import "./css/contact.css";
 function contact() {
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
+  function handleForm(event) {
+    event.preventDefault();
+    let myForm = document.getElementById("contact-form");
+    let formData = new FormData(myForm);
+    fetch(event.target.action, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode(formData),
+    })
+      .then((data) => console.log(data))
+      .catch((error) => alert(error));
+  }
   return (
     <section
       className="py-3 px-2 w-11/12 mx-auto mb-32 bg-secondaryDark text-center rounder smoothAfShadow"
@@ -52,8 +71,8 @@ function contact() {
             data-netlify="true"
             name="netlify-form"
             method="post"
+            onSubmit={handleForm}
             className="w-11/12 md:w-3/4 mx-auto"
-            autoComplete="off"
           >
             <input type="hidden" name="netlify-form" value="netlify-form" />
             <h1 className="text-primaryHighlight text-2xl mb-8">
@@ -101,10 +120,12 @@ function contact() {
                 Message
               </label>
             </div>
-            <input
+            <button
               type="submit"
               className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative focus:outline-none z-0"
-            />
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>
