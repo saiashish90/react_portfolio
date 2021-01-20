@@ -9,18 +9,24 @@ function contact() {
       )
       .join("&");
   };
-  function handleForm(event) {
+  const handleSubmit = (event) => {
     event.preventDefault();
-    let myForm = document.getElementById("netlify-form");
-    let formData = new FormData(myForm);
-    fetch(event.target.action, {
+    let data = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("name").value,
+      message: document.getElementById("name").value,
+    };
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode(formData),
+      body: encode({
+        "form-name": "netlify-form",
+        ...data,
+      }),
     })
       .then((data) => console.log(data))
       .catch((error) => alert(error));
-  }
+  };
   return (
     <section
       className="py-3 px-2 w-11/12 mx-auto mb-32 bg-secondaryDark text-center rounder smoothAfShadow"
@@ -72,7 +78,7 @@ function contact() {
             name="netlify-form"
             id="netlify-form"
             method="post"
-            onSubmit={handleForm}
+            onSubmit={handleSubmit}
             className="w-11/12 md:w-3/4 mx-auto"
           >
             <input type="hidden" name="form-name" value="netlify-form" />
