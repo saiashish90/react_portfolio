@@ -56,7 +56,7 @@ function contact() {
 					</div>
 				</div>
 				<div className="w-full md:w-1/2 mb-5">
-					<form id="contact-form" data-netlify="true" name='netlify-form' onSubmit={handleForm} className="w-11/12 md:w-3/4 mx-auto" autoComplete="off">
+					<form id="contact-form" data-netlify="true" name='netlify-form' method="post" onSubmit={handleForm} className="w-11/12 md:w-3/4 mx-auto" autoComplete="off">
 						<h1 className="text-primaryHighlight text-2xl mb-8">Leave a message</h1>
 						<div className="mx-auto h-12 p-2 border w-full mb-8 rounded-lg text-left">
 							<input
@@ -97,9 +97,7 @@ function contact() {
 							</label>
 						</div>
 						<input type="hidden" name="form-name" value="netlify-form" />
-						<input type='submit' className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative focus:outline-none z-0">
-							Submit
-						</input>
+						<input type='submit' className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative focus:outline-none z-0"/>
 					</form>
 				</div>
 			</div>
