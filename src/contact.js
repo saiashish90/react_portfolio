@@ -13,8 +13,8 @@ function contact() {
     event.preventDefault();
     let data = {
       name: document.getElementById("name").value,
-      email: document.getElementById("name").value,
-      message: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      message: document.getElementById("message").value,
     };
     fetch("/", {
       method: "POST",
