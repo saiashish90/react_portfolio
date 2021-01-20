@@ -97,9 +97,9 @@ function contact() {
 							</label>
 						</div>
 						<input type="hidden" name="form-name" value="netlify-form" />
-						<button className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative focus:outline-none z-0">
+						<input type='submit' className="bg-primaryHighlight text-black font-semibold text-sm py-3 px-8 rounded-lg relative focus:outline-none z-0">
 							Submit
-						</button>
+						</input>
 					</form>
 				</div>
 			</div>
