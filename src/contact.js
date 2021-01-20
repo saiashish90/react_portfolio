@@ -11,7 +11,7 @@ function contact() {
   };
   function handleForm(event) {
     event.preventDefault();
-    let myForm = document.getElementById("contact-form");
+    let myForm = document.getElementById("netlify-form");
     let formData = new FormData(myForm);
     fetch(event.target.action, {
       method: "POST",
@@ -70,6 +70,7 @@ function contact() {
           <form
             data-netlify="true"
             name="netlify-form"
+            id="netlify-form"
             method="post"
             onSubmit={handleForm}
             className="w-11/12 md:w-3/4 mx-auto"
