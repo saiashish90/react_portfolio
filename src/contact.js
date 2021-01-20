@@ -26,7 +26,11 @@ function contact() {
     })
       .then((data) => console.log(data))
       .catch((error) => alert(error));
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
   };
+
   return (
     <section
       className="py-3 px-2 w-11/12 mx-auto mb-32 bg-secondaryDark text-center rounder smoothAfShadow"
