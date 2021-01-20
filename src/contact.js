@@ -75,7 +75,7 @@ function contact() {
             onSubmit={handleForm}
             className="w-11/12 md:w-3/4 mx-auto"
           >
-            <input type="hidden" name="netlify-form" value="netlify-form" />
+            <input type="hidden" name="form-name" value="netlify-form" />
             <h1 className="text-primaryHighlight text-2xl mb-8">
               Leave a message
             </h1>
