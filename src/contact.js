@@ -2,14 +2,19 @@ import React from 'react';
 import './css/styles.css';
 import './css/contact.css';
 function contact() {
+	const encode = (data) => {
+		return Object.keys(data)
+			.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+			.join('&');
+	  }
 	function handleForm(event) {
 		event.preventDefault();
 		let myForm = document.getElementById('contact-form');
 		let formData = new FormData(myForm)
-		fetch('/', {
+		fetch(event.target.action, {
 			method: 'POST',
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
-			body: new URLSearchParams(formData).toString()
+			body: encode(formData)
 		  }).then(data => console.log(data)).catch((error) =>
 			alert(error))
 		}
